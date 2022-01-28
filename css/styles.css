@@ -1,42 +1,98 @@
-body{
-    background-color: #FFFFFF;
-    color: #757575;
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-bg-color: #FFFFFF;
+    --fill-color: #2F303A;
+    --logo-color-header: #000000;
+    --logo-color-footer: #FFFFFF;
+    --hero-text-color: #FFFFFF;
+    --button-text-color: #FFFFFF;
 }
 
-.logo {
-    color: #212121;
+body{
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+}
+
+ul {
+    list-style: none;
 }
 
 .accent {
-    color: #2196F3;
+    color: var(--accent-color);
+}
+
+.logo-header {
+    color: var(--logo-color-header);
+}
+
+.logo-footer {
+    color: var(--logo-color-footer);
 }
 
 /* Навигация */
 
 .site-nav .link {
-    color: #212121;
+    color: var(--title-text-color);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
 }
 
 /* Контакты */
 
 .contact-nav .link-contact {
-    color: #757575;
+    color: var(--primary-text-color);
 }
 
 .contact-nav .link-contact:hover,
 .contact-nav .link-contact:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
-/* Основное */
+
+/* Герой */
+
+.hero-title {
+    color: var(--hero-text-color);
+}
+
+.hero .button:hover,
+.hero .button:focus {
+    color: var(--primary-bg-color);
+}
+
+.button {
+    color: var(--button-text-color);
+    background-color: var(--accent-color);
+}
+
+/* Секции */
 
 .section-title {
-    color: #212121;
+    color: var(--title-text-color);
+}
+
+/* Особенности и преимущества */
+
+    .advantage-title {
+        color: var(--primary-text-color);
+    }
+
+/* Команда */
+
+.name {
+    color: var(--title-text-color);
+}
+.position {
+    color: var(--primary-text-color);
 }
 
 
@@ -45,7 +101,7 @@ body{
 
 /* цвет заголовков #212121 */
 /* синий #2196F3 */
-/* мелкий шрифт #757575 */
+/* основной шрифт #757575 */
 /* черная заливка #2F303A */
 /* логотоип #2196F3 #000000 */
 /* белый #FFFFFF */
