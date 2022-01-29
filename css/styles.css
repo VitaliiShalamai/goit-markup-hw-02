@@ -8,6 +8,7 @@
     --logo-color-footer: #FFFFFF;
     --hero-text-color: #FFFFFF;
     --button-text-color: #FFFFFF;
+    --potfolio-bg-color: #F5F4FA;
 }
 
 body{
@@ -27,8 +28,10 @@ ul {
     color: var(--logo-color-header);
 }
 
+/* Пока оставляю в футере слово Studio тоже в черном цвете (позже сменить на белый цвет как в макете) */
+
 .logo-footer {
-    color: var(--logo-color-footer);
+    color: var(--logo-color-header);
 }
 
 /* Навигация */
@@ -46,15 +49,23 @@ ul {
     color: var(--accent-color);
 }
 
-/* Контакты */
+/* Контакты шапки*/
 
-.contact-nav .link-contact {
+.header-nav .link-contact {
     color: var(--primary-text-color);
 }
 
-.contact-nav .link-contact:hover,
-.contact-nav .link-contact:focus {
+.header-nav .link-contact:hover,
+.header-nav .link-contact:focus,
+.footer-nav .link-contact:hover,
+.footer-nav .link-contact:focus {
     color: var(--accent-color);
+}
+
+/* Контакты футера */
+
+.footer-nav .link-contact{
+    color: var(--primary-text-color);
 }
 
 
@@ -64,12 +75,12 @@ ul {
     color: var(--hero-text-color);
 }
 
-.hero .button:hover,
-.hero .button:focus {
+.hero .main-button:hover,
+.hero .main-button:focus {
     color: var(--primary-bg-color);
 }
 
-.button {
+.main-button {
     color: var(--button-text-color);
     background-color: var(--accent-color);
 }
@@ -95,13 +106,22 @@ ul {
     color: var(--primary-text-color);
 }
 
+/* Стиль кнопок фильтра */
+
+.port-btn {
+    color: var(--title-text-color);
+    background-color: var(--potfolio-bg-color);
+}
+
+.filter .port-btn:hover,
+.filter .port-btn:focus {
+    color: var(--button-text-color);
+    background-color: var(--accent-color);
+}
 
 
 
 
-/* цвет заголовков #212121 */
-/* синий #2196F3 */
-/* основной шрифт #757575 */
-/* черная заливка #2F303A */
-/* логотоип #2196F3 #000000 */
-/* белый #FFFFFF */
+
+
+
