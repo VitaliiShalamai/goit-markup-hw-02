@@ -86,6 +86,7 @@ ul {
     color: var(--primary-text-color);
 }
 
+/* Студия */
 
 /* Герой */
 
@@ -100,14 +101,26 @@ ul {
     text-transform: uppercase;
 }
 
-.hero .main-button:hover,
-.hero .main-button:focus {
-    color: var(--primary-bg-color);
-}
-
-.main-button {
+.main-btn {
     color: var(--button-text-color);
     background-color: var(--accent-color);
+
+    font-weight: bold;
+    font-size  : 16px;
+    line-height: 1,87;
+    letter-spacing: 0.06em;
+
+    width   : 200px;
+    height  : 50px;
+    left    : 700px;
+    top     : 430px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.hero .main-btn:hover,
+.hero .main-btn:focus {
+    color: var(--primary-bg-color);
 }
 
 /* Секции */
@@ -118,8 +131,36 @@ ul {
 
 /* Особенности и преимущества */
 
-    .advantage-title {
+    .featur-title {
         color: var(--primary-text-color);
+        font-size  : 14px;
+        line-height: 1,71;
+        letter-spacing: 0.03em;
+    }
+
+    h2 {
+        color: var(--title-text-color);
+        font-weight: bold;
+        font-size  : 36px;
+        line-height: 42px;
+        text-align : center;
+        letter-spacing: 0.03em;
+    }
+
+    h3 {
+        color: var(--title-text-color);
+        font-weight: 500;
+        font-size  : 16px;
+        line-height: 1,87;
+        letter-spacing: 0.03em;
+    }
+
+    h4 {
+        color       : var(--primary-text-color);
+        font-weight : bold;
+        font-size   : 14px;
+        line-height : 1,14;
+        letter-spacing: 0.03em;
     }
 
 /* Команда */
@@ -129,7 +170,12 @@ ul {
 }
 .position {
     color: var(--primary-text-color);
+    font-size  : 16px;
+    line-height: 1,87;
+    letter-spacing: 0.03em;
 }
+
+/* Портфолио */
 
 /* Стиль кнопок фильтра */
 
