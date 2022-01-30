@@ -39,7 +39,7 @@ body{
     color: var(--logo-color-header);
 }
 
-.footer {
+.footer-content {
     background-color: var(--fill-color);
 }
 
