@@ -24,6 +24,7 @@ body{
     font-weight: bold;
     font-size  : 26px;
     line-height: 1,19;
+    text-decoration: none;
 }
 
 ul {
@@ -38,10 +39,12 @@ ul {
     color: var(--logo-color-header);
 }
 
-/* Пока оставляю в футере слово Studio тоже в черном цвете (позже сменить на белый цвет как в макете) */
+.footer {
+    background-color: var(--fill-color);
+}
 
 .logo-footer {
-    color: var(--logo-color-header);
+    color: var(--logo-color-footer);
 }
 
 /* Навигация */
@@ -52,6 +55,7 @@ ul {
     font-size  : 14px;
     line-height: 1,14;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -71,6 +75,7 @@ ul {
     font-size  : 14px;
     line-height: 1,14;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
 .header-nav .link-contact:hover,
@@ -84,15 +89,19 @@ ul {
 
 .footer-nav .link-contact{
     color: var(--primary-text-color);
+    text-decoration: none;
 }
 
 /* Студия */
 
 /* Герой */
 
+.hero {
+    background-color: var(--fill-color);
+}
+
 .hero-title {
-    /* Цвет позже поменять на белый */
-    color: var(--title-text-color);
+    color: var(--hero-text-color);
     font-weight: 900;
     font-size  : 44px;
     line-height: 1,36;
