@@ -199,6 +199,10 @@ background-color: var(--accent-color);
 
 /* Проекты */
 
+.project-link {
+    text-decoration: none;
+}
+
 .project-title {
 color: var(--title-text-color);
 font-weight: bold;
