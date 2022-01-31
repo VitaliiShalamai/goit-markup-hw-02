@@ -151,9 +151,11 @@ body{
     font-weight: bold;
     font-size: 14px;
     line-height: 1.14;
+    text-transform: uppercase;
 }
 
 .featur .text {
+    color: var(--primary-text-color);
     font-size: 14px;
     line-height: 1.71;
 }
