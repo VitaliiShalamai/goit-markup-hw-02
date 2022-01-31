@@ -22,8 +22,8 @@ body{
 .logo {
     font-family: Raleway, sans-serif;
     font-weight: bold;
-    font-size  : 26px;
-    line-height: 1,19;
+    font-size: 26px;
+    line-height: 1.19;
     text-decoration: none;
 }
 
@@ -52,8 +52,8 @@ body{
 .site-nav .link {
     color: var(--title-text-color);
     font-weight: 500;
-    font-size  : 14px;
-    line-height: 1,14;
+    font-size: 14px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
 }
@@ -72,8 +72,8 @@ body{
 .header-nav .link-contact {
     color: var(--primary-text-color);
     font-weight: 500;
-    font-size  : 14px;
-    line-height: 1,14;
+    font-size: 14px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
 }
@@ -90,14 +90,14 @@ body{
 .footer-nav .link-contact{
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
-    font-size      : 14px;
-    line-height    : 1.71;
-    letter-spacing : 0.03em;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
 .link-office {
     color: var(--logo-color-footer);
-    font-size  : 14px;
+    font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
@@ -113,9 +113,9 @@ body{
 .hero-title {
     color: var(--hero-text-color);
     font-weight: 900;
-    font-size  : 44px;
-    line-height: 1,36;
-    text-align    : center;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
@@ -127,14 +127,14 @@ body{
     font-family: inherit;
 
     font-weight: bold;
-    font-size  : 16px;
-    line-height: 1,87;
+    font-size: 16px;
+    line-height: 1.87;
     letter-spacing: 0.06em;
 
-    width   : 200px;
-    height  : 50px;
-    left    : 700px;
-    top     : 430px;
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
@@ -147,15 +147,15 @@ body{
 /* Особенности и преимущества */
 
 .featur-title {
-    color         : var(--primary-text-color);
-    font-weight   : bold;
-    font-size     : 14px;
-    line-height   : 1, 14;
+    color: var(--primary-text-color);
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
 }
 
 .featur .text {
-    font-size     : 14px;
-    line-height   : 1,71;
+    font-size: 14px;
+    line-height: 1.71;
 }
 
 /* Чем мы занимаемся */
@@ -163,24 +163,24 @@ body{
 .section-title {
     color: var(--title-text-color);
     font-weight: bold;
-    font-size  : 36px;
-    line-height: 1,16;
-    text-align : center;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
 }
 
 /* Наша команда */
 
 .name {
-color         : var(--title-text-color);
-font-weight   : 500;
-font-size     : 16px;
-line-height   : 1, 87;
+color: var(--title-text-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.87;
 }
 
 .position {
 color: var(--primary-text-color);
-font-size  : 16px;
-line-height: 1,87;
+font-size: 16px;
+line-height: 1.87;
 }
 
 /* Страница "Портфолио" */
@@ -193,13 +193,13 @@ background-color: var(--potfolio-bg-color);
 cursor: pointer;
 font-family: inherit;
 font-weight: 500;
-font-size  : 16px;
+font-size: 16px;
 line-height: 1,62;
 
-width   : 130px;
-height  : 38px;
-left    : 976px;
-top     : 174px;
+width: 130px;
+height: 38px;
+left: 976px;
+top: 174px;
 }
 
 .filter .port-btn:hover,
@@ -217,13 +217,13 @@ background-color: var(--accent-color);
 .project-title {
 color: var(--title-text-color);
 font-weight: bold;
-font-size  : 18px;
+font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
 }
 
 .project-name {
 color: var(--primary-text-color);
-font-size  : 16px;
-line-height: 1,87;
+font-size: 16px;
+line-height: 1.87;
 }
