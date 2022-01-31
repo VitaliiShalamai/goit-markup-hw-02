@@ -81,13 +81,15 @@ body{
 .header-nav .link-contact:hover,
 .header-nav .link-contact:focus,
 .footer-nav .link-contact:hover,
-.footer-nav .link-contact:focus {
+.footer-nav .link-contact:focus,
+.footer-nav .link-office:hover,
+.footer-nav .link-office:focus {
     color: var(--accent-color);
 }
 
 /* Контакты футера */
 
-.footer-nav .link-contact{
+.footer-nav .link-contact {
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
     font-size: 14px;
@@ -97,6 +99,7 @@ body{
 
 .link-office {
     color: var(--logo-color-footer);
+    text-decoration: none;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
